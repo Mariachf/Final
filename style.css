@@ -1,0 +1,1053 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* começo do header*/
+
+.container{
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    background-image: url("assets/star\ uó\ topo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.kylo{
+    width: 150vh;
+    height: 120vh;
+    position: relative;
+    right: 34%;
+    bottom: 2%;
+}
+
+.star{
+    width: 70vh;
+    height: 12vh;
+    position: relative;
+    top:55%;
+    left: 22%;
+    
+}
+
+.wars{
+    width: 70vh;
+    height: 12vh;
+    position: relative;
+    top:55%;
+    left: 44%;
+}
+
+.linha-vertical{
+    border: 1px solid black;
+    width: 10em;
+}
+
+.liga{
+    width: 25%;
+    height: 15vh;
+    position: relative;
+    right: 35%;
+    top: 80%;
+}
+
+.criar{
+    font-size: 20px;
+    width: 90%;
+    text-transform:uppercase;
+    padding-bottom: 5%;
+}
+
+.number{
+    font-size: 20px;
+    padding-top: 12%;
+}
+
+.B-esquerda, .B-direita{
+    border: none;
+    width: 15px;
+    height: 15px;
+    font-size: 13px;
+    margin-left: 2%;
+    background-color: rgb(172, 172, 172);
+}
+
+.B-esquerda:hover, .B-direita:hover{
+    background-color: rgb(112, 112, 112);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+#cont-red img{
+    width: 45vh;
+    height: 65vh;
+}
+
+#cont-red{
+    right: 112%;
+    top: 93%;
+    position: relative;
+    
+
+  }
+  
+  #cont-red figcaption {
+    font-size: 20px;
+    position: relative;
+    bottom: 20em;
+    color: white;
+  }
+
+.jogo{
+    width: 50%;
+    text-align: center;
+    padding-top: 16%;
+    padding-left:  4rem;
+    padding-bottom: 4rem;
+
+}
+
+.baixe{
+    width: 80%;
+    font-size: 14px;
+    padding-left: 11%;
+}
+
+.downl{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 19%;
+    margin-left: 25%;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #000003;
+    -webkit-transition: ease-out 0.8s;
+    -moz-transition: ease-out 0.8s;
+    transition: ease-in-out 0.8s;
+    
+}
+
+.downl:hover {
+    box-shadow: inset 400px 0 0 0  #000003;
+}
+
+.downl p{
+    transition: ease-in-out 0.8s;
+}
+
+.downl p:hover{
+    font-size: 17px;
+}
+
+
+
+/*começo da main*/
+
+main{
+    width: 100%;
+    height: 500vh;
+   
+}
+
+.pri-cont{
+    background-image: url("assets/sta uo robot.png") ;
+    width: 50%;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.sec-2{
+    display: flex;
+    width: 100%;
+}
+
+#blue{
+ 
+ height: 20vh;
+}
+
+#blue fieldset{
+    position: relative;
+    bottom: 135%;
+}
+
+
+#blue img{
+    width: 43vh;
+    height: 27vh;
+    position: relative;
+    left: 149%;
+    padding-top: 31%;
+}
+
+.cont-sobre{
+    width: 53%;
+    text-align: end;
+    left: 94%;
+    border: none;
+}
+
+.cont-sobre h2{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cont-sobre p{
+    font-size: 14px;
+}
+
+.linha-vertical-2{
+    border: 1px solid black;
+    width: 6em;
+    margin-left: 72%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+/* segunda parte da main*/
+
+.linha-vertical-3{
+    border: 1px solid black;
+    width: 68rem;
+    position: relative;
+    top:30%;
+    left: 27%;
+}
+
+.estrutura{
+    display: flex;
+    
+    width: 100%;
+    height: 130vh;
+   
+}
+
+.lord{
+    height: 90vh;
+    position: relative;
+    left: 27%;
+    top:36%;
+    
+}
+
+.rey{
+    height: 80vh;
+    position: relative;
+    top:43%;
+    left: 15%;
+}
+
+.con-estrutura{
+    text-align: end;
+    position: relative;
+    top: 42%;
+    left: 4%;
+}
+
+.con-estrutura p {
+    font-size: 40px;
+    padding-left: 47%;
+    width: 80%;
+    
+}
+
+.con-estrutura ul{
+    font-size: 16px;
+    width: 18em;
+    height: 10em;
+    padding-top: 2%;
+   
+}
+
+.con-estrutura li{
+    margin-top: 5%;
+    list-style: none;
+    transition: 1s;
+   padding-top: 2%;
+   padding-right: 2%;
+    height: 4vh;
+    width: 60vh;
+}
+
+.con-estrutura li:hover{
+    background-color:#bc280c;
+    color:whitesmoke;
+}
+
+/* terceira parte da main */
+
+.atributos{
+    width: 100%;
+    height: 280vh;
+    background-color: #2D2D2D;
+}
+
+
+
+.img-atributos{
+    width:35%;
+    height: 60vh;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 7em;
+    margin-top: 15em;
+}
+
+.T-1{
+    background-image: url("assets/134840-games-review-star-wars-battlefront-review-image1-NkRao9Jw12.png");
+    width: 100%;
+    height: 60vh;
+   
+}
+
+
+.fi-T1 h3{
+    color:white;
+    font-size:25px;
+    padding-top:10%;
+    padding-left:8%;
+    width:25%;
+}
+
+.fi-T1 p{
+    color: rgba(255, 255, 255, 0.781);
+    font-size:20px;
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.fi-T1 button{
+    width: 25vh;
+    height: 6vh;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    position: relative;
+    top: 25%;
+    left: 8%;
+    cursor: pointer;
+}
+.fi-T1{
+    width: 100%;
+    height: 60vh;
+    background-color: #3e0071a6;
+    opacity: 0;
+    transition: 0.9s ease-in-out; 
+}
+
+.fi-T1:after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right:89% ;
+    border-top: 3px solid white;
+    border-left: 3px solid white; 
+}
+
+.fi-T1:before {
+   content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom:10px;
+    left: 89% ;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+} 
+
+
+ .fi-T1:hover{
+   opacity: 1;
+    transform: scale(1.1);  
+  
+}
+ 
+
+
+
+.T-2{
+    background-image: url("assets/Security_stormtrooper_HUC2-FF-003301.png ");
+}
+
+.fi-T2{
+    background-color: rgba(255, 0, 0, 0.582);
+}
+
+.T-3{
+    background-image: url("assets/naves em batalha star wars@2x.png");
+}
+
+.fi-T3{
+    background-color: #f49d1abd;
+}
+
+.T-4{
+    
+    background-image: url("assets/star game.png");
+}
+
+.fi-T4{
+    background-color: rgba(8, 255, 8, 0.555);
+    
+}
+
+.T-5{
+    background-image: url("assets/stormtrup@2x.png");
+}
+
+.fi-T5{
+    background-color: rgba(0, 0, 255, 0.507);
+}
+
+.T-2, .T-3, .T-4, .T-5{
+    width: 50vh;
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* CARDS */
+
+.fi-T2, .fi-T3, .fi-T4, .fi-T5{
+    width: 49vh;
+    height: 30vh;
+    transition: 0.8s ease-in-out;
+    opacity: 0;
+}
+
+.fi-T2 h3, .fi-T3 h3, .fi-T4 h3, .fi-T5 h3{
+    color: white;
+    width: 48%;
+    font-size: 15px;
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+.fi-T2 p, .fi-T3 p, .fi-T4 p, .fi-T5 p{
+    width: 80%;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.781);
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.fi-T2  button, .fi-T3  button, .fi-T4  button, .fi-T5 button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 17vh;
+    height: 5vh;
+    position: relative;
+    left: 7%;
+    top: 5%;
+    cursor: pointer;
+}
+
+
+.fi-T2:hover, .fi-T3:hover, .fi-T4:hover, .fi-T5:hover{
+    opacity: 1;
+    transform: scale(1.1); 
+   
+}
+
+
+.fi-T2::after, .fi-T3::after, .fi-T4::after, .fi-T5::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:10px ;
+    right: 87%;
+    border-top: 3px solid white;
+    border-left: 3px solid white; 
+}
+
+.fi-T2::before, .fi-T3::before, .fi-T4::before, .fi-T5::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom:10px;
+    left:87%;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+}
+
+
+.atributos-h2{
+    position: relative;
+    top: 10%;
+    left: 16%;
+    width: 50%;
+    font-weight: bold;
+    font-size: 34px;
+    color:whitesmoke;
+}
+
+
+
+.hierarquia{
+    position: relative;
+    width: 90%;
+    text-align: end;
+    right: .5%;
+    top: 5%;
+   
+    
+}
+
+.hierarquia-img{
+    width: 68.5em;
+    height: 100vh;
+}
+
+.hierarquia-fig{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 1%;
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+}
+
+.jogar-h2{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    top: 15%;
+    left: 45%;
+    width: 50%;
+}
+
+.capa-preta{
+    width: 70vh;
+    height: 100vh;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.main-3{
+    height:120vh;
+    width: 35%;
+   
+   
+}
+
+.main-4{
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 37%;
+    bottom: 13%;
+}
+
+.m-1, .m-2, .m-3{
+    width: 35%;
+    height: 30vh;
+}
+
+ 
+
+.main-4 button{
+    border: none;
+    background-color: #000003;
+    color: whitesmoke;
+    width: 28vh;
+    height: 7vh;
+    font-size: 17px;
+    margin: 0px 40px 0px 47px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(209, 0, 0);
+    -webkit-transition: ease-out 0.8s;
+    -moz-transition: ease-out 0.8s;
+    transition: ease-in-out 0.8s;
+}
+
+.main-4 button:hover{
+    box-shadow: inset 200px 0 0 0  rgb(209, 0, 0);
+   
+}
+
+h4 {
+    position: relative;
+    bottom: 51%;
+    font-size: 30px;
+    text-align: center;
+    transition: ease-in-out 0.8s;
+    font-weight: lighter;
+} 
+
+.main-4 button:hover ~ h4 {
+    font-weight: bold;
+}
+
+.divisor{
+    width: 10vh;
+    border: #000003 2px solid;
+    position: relative;
+    top: 12%;
+    left: 39%;
+    transition: ease-in-out 0.8s;
+}
+
+.main-4 button:hover ~ .divisor{
+    border:rgb(209, 0, 0) 2px solid;
+}
+
+.m-1 p{
+    width: 46%;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 27%;
+}
+
+.m-2 p{
+    width: 29%;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 36%;
+}
+
+.m-3 p{
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 38%;
+}
+
+
+
+ .darth{
+    width: 80vh;
+    height: 100vh;
+    position: relative;
+    right: 12%;
+    bottom: 3%;
+ }
+
+ .darth-foo{
+    width: 40%;
+    height: 95vh;
+   
+    position: relative;
+    left: 55%;
+    bottom: 13%;
+ }
+
+/* começo de footer */
+
+ footer{
+    width: 60%;
+    height: 97vh;
+    background-color: #FF5A56;
+ }
+
+
+footer h2{
+    color:whitesmoke;
+    font-size: 33px;
+    margin-left: 20%;
+   padding-top: 10%;
+}
+
+.divisor-red{
+    width: 56vh;
+    border: #bc290c91 2px solid;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+footer p{
+    color: rgba(245, 245, 245, 0.658);
+    width: 46%;
+    font-size: 15px;
+    margin: 5% 0% 4% 20%;
+}
+
+footer a img{
+    width: 28vh;
+    height: 8vh;
+    
+}
+
+.redes{
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.star-uo{
+    width: 20vh;
+    height: 10vh;
+    margin-left: 20%;
+}
+
+
+@media (min-width:360px) and (max-width:720px){
+    .container{
+       width: 175%;
+       height: 43vh;
+       background-size:contain;
+    }
+
+    .star{
+        top: 57%;
+        width: 45vh;
+        height:5vh;
+        
+    }
+
+    .kylo{
+    
+        height: 51vh;
+        top: 3%;
+        right: 32%;
+    }
+
+    .wars{
+        top: 57%;
+        width: 45vh;
+        height:5vh;
+    }
+
+    .liga{
+        right: 35%;
+        top: 85%;
+        width: 20%;
+    }
+
+    .criar{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .number{
+        font-size: 10px;
+        width: 200%;
+       
+    }
+
+    .number-2{
+        font-size: 15px;
+    }
+
+    .linha-vertical{
+        width: 3em;
+        border: 2px solid black;
+    }
+
+    
+    #cont-red img{
+        width: 55vh;
+        height: 85vh;
+    }
+
+    #cont-red{
+        right: 79%;
+        top: 120%;
+    }
+
+    #cont-red figcaption{
+        bottom: 25em;
+    }
+
+    .jogo{
+        padding-left: 5rem;
+        font-size: 40px;
+    }
+
+    .baixe{
+        font-size: 17px;
+    }
+
+    .downl{
+        width: 12em;
+        height: 4em;
+    }
+  
+    
+    .pri-cont{
+        width: 120% ;
+        height: 259vh;
+    }
+
+    #blue img{
+        left: 57.9%;
+        width: 55vh;
+        height: 33vh;
+        top: 380%;
+    }
+
+    #blue fieldset{
+        bottom: 0;
+        top: 400%;
+        left: 0%;
+    }
+
+    #blue p{
+        font-size: 25px;
+        width: 200%;
+    }
+
+    #blue h2{
+        font-size: 30px;
+        position: relative;
+        left: 100%;
+    }
+
+    .linha-vertical-2{
+        width: 18em;
+        margin-left: 100%;
+        border: 4px solid black;
+    }
+
+    .linha-vertical-3 {
+        width: 35rem;
+        top:65%;
+        left: 8%;
+    }
+
+    .estrutura{
+      position: relative;
+      top: 85%;
+      height: 50%;
+     
+    }
+
+    .lord{
+        top: -27%;
+        width: 70%;
+        height: 60vh;
+        left:5%;
+        
+    }
+
+    .rey{
+        top: -27%;
+        left: -21%;
+       
+        height: 60vh;
+        
+    }
+
+    .con-estrutura{
+        height: 50vh;
+        
+        width: 50%;
+        
+        left: -25%;
+        top: -27%;
+
+    }
+    .con-estrutura li{
+        font-size: 14px;
+        width: 40vh;
+        padding-right:4%;
+        margin-top: 2%;
+    }
+
+    .con-estrutura p{
+        font-size: 20px;
+        padding-left: 40%;
+    }
+
+    .atributos{
+        width: 175%;
+        height: 430vh;
+      
+    }
+
+    .img-atributos{
+        display: inline;
+        
+    }
+
+    .fi-T1, .fi-T2, .fi-T3, .fi-T4, .fi-T5{
+        width: 99%;
+        height: 50vh;
+    }
+    
+    .fi-T2::after, .fi-T3::after, .fi-T4::after, .fi-T5::after{
+        content: "";
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 10px;
+        right:89% ;
+        border-top: 3px solid white;
+        border-left: 3px solid white; 
+    }
+    .fi-T2::before, .fi-T3::before, .fi-T4::before, .fi-T5::before{
+        content: "";
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom:10px;
+        left: 89% ;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    .fi-T1 h3, .fi-T2 h3, .fi-T3 h3, .fi-T4 h3, .fi-T5 h3{
+        color:white;
+        font-size:20px;
+        padding-top:7%;
+        padding-left:8%;
+        width:25%;
+    }
+    
+    .fi-T2 p, .fi-T3 p, .fi-T4 p, .fi-T5 p{
+        color: rgba(255, 255, 255, 0.781);
+        font-size:20px;
+        width: 50%;
+        margin-left: 8%;
+        margin-top: 2%;
+    }
+    
+    .fi-T2  button, .fi-T3  button, .fi-T4  button, .fi-T5 button{
+        width: 25vh;
+        height: 6vh;
+        color: white;
+        border: 2px solid white;
+        background-color: transparent;
+        position: relative;
+        top: 18%;
+        left: 8%;
+        cursor: pointer;
+    }
+
+    .T-1, .T-2, .T-3, .T-4, .T-5{
+        width: 80%;
+        height: 50vh;
+        margin-left: 4em;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .T-1{
+        margin-top: 20%;
+    }
+
+    .atributos-h2 {
+        text-align: center;
+        top:4%;
+        left: 25%;
+    }
+
+    .hierarquia-img{
+        width: 39.5em;
+        height: 80vh;
+    }
+
+    .hierarquia-fig{
+        font-size: 12px;
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    .jogar-h2{
+        top:9%;
+        font-size: 25px;
+    }
+
+    .capa-preta{
+       width: 55vh;
+       height: 125vh;
+       top: 27%;
+       left: 1%;
+      
+    }
+
+    .main-4{
+        display: inline;
+        left: 0;
+        width: 100%;
+    }
+
+    .main-4 button{
+        width: 20vh;
+        height: 7vh;
+        margin: 0;
+        position: relative;
+        top: 30%;
+        left: 183%;
+    }
+
+    .m-1 p{
+        top:10%;
+        left: 163%;
+        position: relative;
+       
+    }
+
+    .m-2 p{
+        top:10%;
+        left: 163%;
+        position: relative;
+        width: 32%;
+    }
+
+    .m-3 p{
+       top:10%;
+        left: 163%;
+        position: relative;
+    }
+
+    h4{
+        bottom: 23%;
+        left: 160%;
+    }
+
+    .divisor{
+        top:15%;
+        left:197%;
+
+    }
+    
+    main{
+        height: 820vh;
+    }
+       
+    footer{
+        width: 175%;
+        height: 125vh;
+    }
+
+    .divisor-red{
+        width: 44vh;
+    }
+
+    .darth {
+        top: 130%;
+        bottom: 0;
+        right: 0%;
+    }
+
+    .darth-foo{
+        
+        margin: 0;
+        left: 0;
+
+    }
+}
